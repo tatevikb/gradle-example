@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+version '0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+application {
+    mainClassName = 'com.person.entrypoint.Main'
+}
+
+run {
+    standardInput = System.in
+}
